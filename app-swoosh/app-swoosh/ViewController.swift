@@ -23,6 +23,10 @@ class ViewController: UIViewController {
 //            , y: 50, width: swooch.frame.size.width, height: swooch.frame.size.height)
 //        bgImg.frame = view.frame
     }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
